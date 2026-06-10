@@ -4,6 +4,8 @@ import { I18n } from 'i18n-js';
 const translations = {
     es: {
         appName: 'Sempa',
+        player: 'Reproductor',
+        library: 'Biblioteca',
         addFile: 'Agrega un archivo',
         urlPlaceholder: 'URL',
         add: 'Agregar',
@@ -12,6 +14,8 @@ const translations = {
     },
     en: {
         appName: 'Sempa',
+        player: 'Player',
+        library: 'Library',
         addFile: 'Add file',
         urlPlaceholder: 'URL',
         add: 'Add',
