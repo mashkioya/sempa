@@ -1,3 +1,4 @@
+import AddFileForm from '@/components/AddFileForm';
 import i18n from '@/constants/i18n';
 import { StyleSheet, Text, View } from "react-native";
 
@@ -8,7 +9,7 @@ export default function Index() {
         <Text style={styles.title}>{i18n.t('appName')}</Text>
       </View>
       <View style={styles.main}>
-        <Text>Howdy partner</Text>
+        <AddFileForm />
       </View>
     </View>
   );

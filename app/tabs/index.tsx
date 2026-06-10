@@ -1,5 +1,5 @@
 import i18n from '@/constants/i18n';
-import { StyleSheet, Text, TextInput, TouchableOpacity, View } from "react-native";
+import { StyleSheet, Text, View } from "react-native";
 
 export default function Index() {
   return (
@@ -8,14 +8,7 @@ export default function Index() {
         <Text style={styles.title}>{i18n.t('appName')}</Text>
       </View>
       <View style={styles.main}>
-        <Text style={styles.subtitle}>{i18n.t('addFile')}</Text>
-        <TextInput
-          style={styles.input}
-          placeholder={i18n.t('urlPlaceholder')}
-        />
-        <TouchableOpacity style={styles.button}>
-          <Text style={styles.buttonText}>{i18n.t('add')}</Text>
-        </TouchableOpacity>
+        <Text>𐑴𐑝𐑼𐑒𐑳𐑥 𐑰𐑝𐑩𐑤 𐑢𐑦𐑞 𐑜𐑫𐑛</Text>
       </View>
     </View>
   );
